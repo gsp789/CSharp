@@ -25,7 +25,7 @@ Sample Output
 */
 
 using System;
-class Solution {
+class CountOfNums {
     static void Main(String[] args) {
         int num = Convert.ToInt32(Console.ReadLine());
         double positive = 0, negative = 0, zero = 0;
