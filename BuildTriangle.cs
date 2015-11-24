@@ -24,13 +24,13 @@ using System.IO;
 class BuildTriangle {
     static void Main(String[] args) {
         int num = Convert.ToInt32(Console.ReadLine());
+        string str;
         for(int i = 1; i <= num; i++)
         {
-                for(int j = 0; j < num - i; j++)
-                    Console.Write(" ");
+                str = "";
                 for(int k = num - i; k < num; k++)
-                    Console.Write("#");
-                Console.WriteLine();
+                    str += "#";
+                Console.WriteLine(str.PadLeft(num));
         }
     }
 }
