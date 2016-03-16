@@ -1,3 +1,3 @@
 # CSharp
 
-This repository contains samples of C# code I do from today.
+This repository contains solutions to some interesting problems code in C# using LINQ.
